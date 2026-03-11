@@ -1,0 +1,484 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Reality Check</title>
+    
+    <!-- Fonts / Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+      />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      rel="stylesheet"
+      />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sticky-header">
+      <!-- FULL WIDTH HERO -->
+      <header class="hero">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            Reality Check: Detecting AI-Generated Images & Deepfake Videos
+            <span class="hero__meta">(30-Hour Course)</span>
+          </h1>
+          <p class="hero__subtitle">Become a Digital Authenticity Detective</p>
+        </div>
+      </header>
+      <!-- TRANSLUCENT NAVBAR -->
+      <nav class="navbar">
+        <div class="navbar__inner">
+          <a class="nav__item" href="#home">Introduction</a>
+          <a class="nav__item" href="#unit0">Units</a>
+          <a class="nav__item" href="#diagnostics">Diagnostics</a>
+          <a class="nav__item" href="#schedule">Schedule</a>
+          <a class="nav__item" href="#coremodule">Core modules</a>
+          <a class="nav__item" href="#reflection">Feedback</a>
+        </div>
+      </nav>
+    </div>
+    <main class="content">
+      <!-- Introduction -->
+      <section class="card" id="home">
+        <!-- main card header -->
+        <header class="card__header">
+          <div class="header__left">
+            <div class="header__icon" aria-hidden="true">
+              <i class="fas fa-info-circle"></i>
+            </div>
+            <div class="header__title">Introduction</div>
+          </div>
+        </header>
+        <div class="card__body">
+          <p class="top-text">AI can fake a face, a scene, even a video. This course teaches you how to tell what’s real.</p>
+          <div class="soft-card hook-card">
+            <article  class="hook-section main-panel" id="home">
+              <div class="hook__header">
+                <div class="hook__label"><i class="fas fa-layer-group"></i> The Hook</div>
+                <div class="hook__counter" id="hookCounter">1 of 5</div>
+              </div>
+              <div class="hook__stage">
+                <button class="hook__nav hook__nav--prev" id="hookPrev">
+                <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="hook__image-wrap">
+                  <img class="hook__image" id="hookImage" src="" alt="" />
+                </div>
+                <button class="hook__nav hook__nav--next" id="hookNext">
+                <i class="fas fa-chevron-right"></i>
+                </button>
+              </div>
+              <div class="hook__footer">
+                <p class="hook__caption" id="hookCaption"></p>
+                <button class="hook__music-btn" id="hookMusicBtn">
+                <i class="fas fa-music"></i>
+                </button>
+              </div>
+              
+              <audio id="hookAudio" loop>
+                <source src="https://www.epidemicsound.com/music/tracks/6a4eba53-d701-4a6f-b94e-b0bf31ecb096/" type="audio/mpeg" />
+              </audio>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="card" id="unit0">
+        <!-- main card header -->
+        <header class="card__header">
+          <div class="header__left">
+            <div class="header__icon" aria-hidden="true">
+              <i class="fas fa-rocket"></i>
+            </div>            
+            <div class="header__title">
+              Unit 0: Course Launch & Expectations
+            </div>
+          </div>
+          <div class="header__pill">1 hour</div>
+        </header>
+        <div class="card__body">
+          <div class="soft-card">
+            <h3 class="soft-card__title">
+              <i class="fas fa-check-square soft-card__icon"></i> Getting
+              Started Checklist
+            </h3>
+            <div class="mini-grid">
+              <article class="mini">
+                <i class="fas fa-check-circle mini__icon--good"></i>
+                <div>
+                  <span class="mini__title">Meet Your Instructors</span>
+                  <span class="mini__desc">
+                  Get to know the experts guiding your journey and book a
+                  1:1 introductory session.</span
+                    >
+                </div>
+              </article>
+              <article class="mini">
+                <i class="fas fa-circle mini__icon"></i>
+                <div>
+                  <span class="mini__title"
+                    >Understand the Course Outline</span
+                    >
+                  <span class="mini__desc">
+                  Review the upcoming units, core topics, and expected time
+                  commitments for each module.</span
+                    >
+                </div>
+              </article>
+              <article class="mini">
+                <i class="fas fa-circle mini__icon"></i>
+                <div>
+                  <span class="mini__title">Complete the Diagnosis</span>
+                  <span class="mini__desc">
+                  Take the pre-course assessment below to evaluate your
+                  baseline detection skills.</span
+                    >
+                </div>
+              </article>
+              <article class="mini">
+                <i class="fas fa-circle mini__icon"></i>
+                <div>
+                  <span class="mini__title"
+                    >Get Your Individualized Schedule</span
+                    >
+                  <span class="mini__desc">
+                  Use the interactive planning tool below to generate a
+                  custom study timeline tailored to your pace.</span
+                    >
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="card__body">
+          <div class="soft-card">
+            <h3 class="soft-card__title">
+              <i class="fas fa-chalkboard-teacher soft-card__icon"></i>
+              Meet Your Instructors
+            </h3>
+            <div class="mini-grid">
+              <article class="person">
+                <div class="mini">
+                  <img
+                    src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairStraight&accessoriesType=Blank&hairColor=Red&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Happy&eyebrowType=Default&mouthType=Default&skinColor=Light"
+                    alt=""
+                    class="avatar"/>
+                  <div class="person__meta">
+                    <div class="person__name">Tanya Gabie</div>
+                    <div class="person__role">Instructor</div>
+                  </div>
+                  <button class="btn booking-btn">
+                  <span class="btn__icon" aria-hidden="true">📅</span> Book
+                  1:1
+                  </button>
+                </div>
+              </article>
+              <article class="person">
+                <div class="mini">
+                  <img
+                    src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairBob&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Happy&eyebrowType=Default&mouthType=Default&skinColor=Light"
+                    alt="Yifan Liu"
+                    class="avatar"/>
+                  <div class="person__meta">
+                    <div class="person__name">Yifan Liu</div>
+                    <div class="person__role">Instructor</div>
+                  </div>
+                  <button class="btn booking-btn">
+                  <span class="btn__icon" aria-hidden="true">📅</span> Book
+                  1:1
+                  </button>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+        <div class="card__body">
+          <div class="soft-card">
+            <h3 class="soft-card__title">
+              <i class="fas fa-list-ul soft-card__icon"></i> Course Outline
+            </h3>
+            <article class="units-grid">
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="card" id="diagnostics">
+        <!-- main card header -->
+        <header class="card__header">
+          <div class="header__left">
+            <div class="header__icon" aria-hidden="true">
+              <i class="fas fa-clipboard-check"></i>
+            </div>
+            <div class="header__title">Diagnosis</div>
+          </div>
+          <div class="header__pill">Pre-requisite</div>
+        </header>
+        <div class="card__body">
+          <div class="assessment">
+            <!-- LEFT PANEL: Quiz -->
+            <div class="panel panel--quiz">
+              <div class="panel__header">
+                <div class="panel__title-group">
+                  <span class="panel__icon"><i class="fas fa-robot"></i></span>
+                  <div>
+                    <div class="panel__title">Part 1 &ndash; AI Quiz</div>
+                    <div class="panel__subtitle">Select the correct image type</div>
+                  </div>
+                </div>
+                <div class="panel__badge" id="quizBadge">Q 1/6</div>
+              </div>
+              <div class="panel__body">
+                <div class="quiz__image">
+                  <img id="quizImage" src="https://picsum.photos/seed/kids/600/400" alt="Quiz image" />
+                </div>
+                <div class="quiz__options" id="quizOptions">
+                  <label class="option">
+                  <input type="radio" name="quiz" value="ai" /> AI-generated
+                  </label>
+                  <label class="option">
+                  <input type="radio" name="quiz" value="real" /> Real photo
+                  </label>
+                  <label class="option">
+                  <input type="radio" name="quiz" value="edited" /> Edited / Photoshopped
+                  </label>
+                </div>
+              </div>
+              <div class="panel__footer">
+                <button class="btn btn--next" id="quizNext">Next <i class="fas fa-arrow-right"></i></button>
+              </div>
+            </div>
+            <!-- RIGHT PANEL: Profile Form -->
+            <div class="panel panel--form">
+              <div class="panel__header">
+                <div class="panel__title-group">
+                  <span class="panel__icon"><i class="fas fa-id-card"></i></span>
+                  <div>
+                    <div class="panel__title">Part 2 &ndash; Student Profile</div>
+                    <div class="panel__subtitle">Complete the survey below</div>
+                  </div>
+                </div>
+                <div class="panel__badge" id="formBadge">Step 1/4</div>
+              </div>
+              <div class="panel__body">
+                <!-- Step 1 -->
+                <div class="form-step active" id="step1">
+                  <label class="form-label">1. Full Name</label>
+                  <input class="form-input" type="text" placeholder="Enter your full name here..." />
+                </div>
+                <!-- Step 2 -->
+                <div class="form-step" id="step2">
+                  <label class="form-label">2. How confident are you in detecting AI-generated images?</label>
+                  <div class="form-options">
+                    <label class="option"><input type="radio" name="confidence" value="0" /> Not confident at all</label>
+                    <label class="option"><input type="radio" name="confidence" value="1" /> Slightly confident</label>
+                    <label class="option"><input type="radio" name="confidence" value="2" /> Confident</label>
+                    <label class="option"><input type="radio" name="confidence" value="3" /> Extremely confident</label>
+                  </div>
+                </div>
+                <!-- Step 3 -->
+                <div class="form-step" id="step3">
+                  <label class="form-label">3. What clues do you look for when deciding if an image is AI-generated? (Select all that apply)</label>
+                  <div class="form-options">
+                    <label class="option"><input type="checkbox" name="exp" value="0" /> Unnatural hands or fingers</label>
+                    <label class="option"><input type="checkbox" name="exp" value="1" /> Warped or misspelled text</label>
+                    <label class="option"><input type="checkbox" name="exp" value="2" /> Lighting inconsistencies</label>
+                    <label class="option"><input type="checkbox" name="exp" value="3" /> Blurry or distorted background</label>
+                  </div>
+                </div>
+                <!-- Step 4 -->
+                <div class="form-step" id="step4">
+                  <label class="form-label">4. What is the most reliable indicator that an image is AI-generated?</label>
+                  <textarea class="form-input form-textarea" placeholder="Write your detailed answer here... Take your time."></textarea>
+                </div>
+              </div>
+              <div class="panel__footer">
+                <button class="btn btn--back" id="formBack" style="display:none">
+                <i class="fas fa-arrow-left"></i> Back
+                </button>
+                <button class="btn btn--next" id="formNext">
+                Next <i class="fas fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+      </section>
+      </div> <!-- main panel -->
+      <section class="card" id="schedule">
+        <!-- main card header -->
+        <header class="card__header">
+          <div class="header__left">
+            <div class="header__icon" aria-hidden="true">
+              <i class="fas fa-calendar-alt"></i>
+            </div>
+            <div class="header__title">Course Schedule</div>
+          </div>
+          <div class="header__pill">Planning Tool</div>
+        </header>
+        <div class="card__body">
+          <div class="soft-card">
+            <section class="timeline">
+              <!-- LEFT: controls -->
+              <div class="panel">
+                <div class="panel__header">
+                  <div class="panel__title-group">
+                    <span class="panel__icon"><i class="fas fa-sliders-h"></i></span>
+                    <div>
+                      <div class="panel__title">Plan your timeline</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel__body">
+                  <div class="form-group">
+                    <label class="form-label">Select Start Date</label>
+                    <input class="form-input" type="date" id="startDate" />
+                  </div>
+                  <div class="form-group">
+                    <label class="form-label">Target Study Pace</label>
+                    <select class="form-input form-select" id="paceSelect"></select>
+                  </div>
+                </div>
+                <div class="panel__footer">
+                  <button class="btn btn--generate" id="generateBtn">
+                  <i class="fas fa-calendar-alt"></i> Generate My Schedule
+                  </button>
+                </div>
+              </div>
+              <!-- RIGHT: output -->
+              <div class="panel panel--output">
+                <div id="scheduleOutput"></div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </section>
+      <section class="card" id="coremodule">
+        <!-- main card header -->
+        <header class="card__header">
+          <div class="header__left">
+            <div class="header__icon" aria-hidden="true">
+              <i class="fas fa-book-open"></i>
+            </div>
+            <div class="header__title">Unit 1: Foundation</div>
+          </div>
+          <div class="header__pill">Core Module</div>
+        </header>
+        <div class="card__body">
+          <div class="soft-card">
+            <h3 class="soft-card__title">
+              Welcome to the Unit 1 Course 1
+            </h3>
+            <p class="top-text">Based on your diagnostic results, choose the level that best matches your current understanding. Start at that level and complete the activities in order; if you find the tasks too easy or too difficult, let me know and we can adjust your level.</p>
+            <article class="levels-grid"></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" id="reflection">
+        <!-- main card header -->
+        <header class="card__header">
+          <div class="header__left">
+            <div class="header__icon" aria-hidden="true">
+              <i class="fas fa-comment-dots"></i>
+            </div>
+            <div class="header__title">Reflection & Feedback</div>
+          </div>
+          <div class="header__pill">Course Wrap-up</div>
+        </header>
+        <div class="card__body">
+          <div class="soft-card">
+            <div class="reflection-grid">
+
+              <!-- LEFT: Personal Reflection -->
+              <div class="ref-panel">
+                <div class="ref-panel__header">
+                  <span class="ref-panel__icon">🚀</span>
+                  <h3 class="ref-panel__title">Personal Reflection</h3>
+                </div>
+                <p class="ref-panel__desc">Take a moment to reflect on your learning journey. What was the most surprising thing you discovered about AI-generated media?</p>
+                <textarea
+                  class="form-input form-textarea ref-textarea"
+                  id="reflectionText"
+                  placeholder="Write your thoughts here..."
+                ></textarea>
+                <button class="btn btn--save" id="saveReflectionBtn">
+                  <i class="fas fa-save"></i> Save Reflection
+                </button>
+              </div>
+
+              <!-- RIGHT: Course Evaluation -->
+              <div class="ref-panel">
+                <div class="ref-panel__header">
+                  <span class="ref-panel__icon">⭐</span>
+                  <h3 class="ref-panel__title">Course Evaluation</h3>
+                </div>
+                <p class="ref-panel__desc">Help us improve! Please rate this course and provide any constructive feedback.</p>
+              
+                <div class="rating-group">
+                  <label class="form-label">Overall Rating</label>
+                  <div class="star-rating" id="starRating">
+                    <i class="fas fa-star star" data-value="1"></i>
+                    <i class="fas fa-star star" data-value="2"></i>
+                    <i class="fas fa-star star" data-value="3"></i>
+                    <i class="fas fa-star star" data-value="4"></i>
+                    <i class="fas fa-star star" data-value="5"></i>
+                  </div>
+                </div>
+              
+                <div class="rating-group">
+                  <label class="form-label">What worked well?</label>
+                  <textarea class="form-input form-textarea" id="feedbackGood" placeholder="Tell us what you liked..."></textarea>
+                </div>
+              
+                <div class="rating-group">
+                  <label class="form-label">What could be improved?</label>
+                  <textarea class="form-input form-textarea" id="feedbackImprove" placeholder="Tell us how we can get better..."></textarea>
+                </div>
+              
+                <button class="btn btn--submit" id="submitFeedbackBtn">
+                  <i class="fas fa-paper-plane"></i> Submit Feedback
+                </button>
+              </div>
+
+  </div>
+</section>
+            
+
+          </div>
+        </div>
+      </section>
+
+      
+      </div>
+    </main>
+    <!-- Global Image/Media Lightbox Modal -->
+    <div class="lightbox" id="lightbox" onclick="handleLightboxClick(event)">
+  <div class="lightbox__panel">
+    <div class="lightbox__header">
+      <span class="lightbox__title" id="lightboxTitle"></span>
+      <button class="lightbox__close" onclick="closeLightbox()"><i class="fas fa-times"></i></button>
+    </div>
+    <div class="lightbox__content" id="lightboxContent"></div>
+    <div class="lightbox__footer" id="lightboxFooter"></div>
+  </div>
+</div>
+    <!-- Your JS -->
+    <script src="./js/data.js"></script>
+    <script src="./js/hook.js"></script>
+    <script src="./js/workingDays.js"></script>
+    <script src="./js/toast.js"></script>
+    <script src="./js/booking.js"></script>  
+    <script src="./js/quiz.js"></script>  
+    <script src="./js/profile.js"></script>  
+    <script src="js/course.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/timeline.js"></script>
+    <script src="js/lightbox.js"></script>
+    <script src="js/levels.js"></script>
+    <script src="js/reflection.js"></script>
+    <!-- <script src="./js/script.js"></script> -->
+  </body>
+</html>
