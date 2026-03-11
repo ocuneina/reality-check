@@ -1,5 +1,8 @@
 // ── HOOK DATA ──────────────────────────────────────
 const hookMusic = './audio/background.mp3';
+// Music by: Bensound
+// License code: YWXZLJCRL22CQOCW
+// Artist: : Benjamin Tissot
 
 const shuffleData = [
   { src: 'images/hook1.png', desc: 'Description pic 1' },
