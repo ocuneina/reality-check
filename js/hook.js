@@ -44,6 +44,8 @@ function renderHookSlide(index) {
 
 // ── MUSIC ─────────────────────────────────────────────
 hookAudio.volume = 0.4; // not too loud
+//audio scr from data.js
+hookAudio.src = hookMusic;
 
 function toggleMusic() {
   if (musicPlaying) {

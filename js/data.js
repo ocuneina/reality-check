@@ -1,4 +1,5 @@
 // ── HOOK DATA ──────────────────────────────────────
+const hookMusic = './audio/background.mp3';
 
 const shuffleData = [
   { src: 'images/hook1.png', desc: 'Description pic 1' },
